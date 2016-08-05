@@ -1,11 +1,11 @@
 -- Set the theme to dark.
 ui.set_theme(not CURSES and 'dark' or 'term', {font = 'Monospace', back='0x000000', fontsize = 8})
 
--- Use autocomplete on all of multiple selections, not just the first.
-buffer.auto_c_multi = buffer.MULTIAUTOC_EACH
-
 -- Allow multiple carets.
 buffer.multiple_selection = true
+
+-- Use autocomplete on all of multiple selections, not just the first.
+buffer.auto_c_multi = buffer.MULTIAUTOC_EACH
 
 -- Allow pasting into each of multiple selections.
 buffer.multi_paste = buffer.MULTIPASTE_EACH
