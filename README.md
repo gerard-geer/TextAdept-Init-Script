@@ -1,4 +1,4 @@
-## This is my TextAdept init script.
+## My TextAdept Init Script
 What it does:
 * Sets the theme to something good.
 * Adds much needed extra space between lines.
